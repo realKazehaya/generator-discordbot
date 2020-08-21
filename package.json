@@ -1,0 +1,23 @@
+{
+  "name": "generator",
+  "version": "0.0.1",
+  "description": "bot description",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "license": "",
+  "keywords": [
+    "account",
+    "generator",
+    "discordbot"
+  ]
+}
