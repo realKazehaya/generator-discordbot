@@ -98,7 +98,7 @@ client.on('message', async message => {
         }, 10000);
     });
 
-    comandos.set('lista', () => {
+    comandos.set('list', () => {
                    if(message.channel.id !== 'GENERATOR-CHANNEL-ID') return message.channel.send("You can only use this command on the channel <#CHANNELID>")
         if (!staff.includes(message.author.id)) return;
         let servers = client.guilds.map(guild => guild.name + " => " + guild.id).join("\n");
