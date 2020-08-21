@@ -15,11 +15,11 @@
 <blockquote>
 <ul>
 <li>!generator <type></li>
-<li>!restart/li>
+<li>!restart</li>
 <li>!botstats</li>
-<li>!leave <id server></li>
+<li>!leave [id server]</li> <--! Don't use [ ] --!>
 <li>!commands</li>
- <li>!about</li>
+<li>!about</li>
 <li>The generated accounts are deleted from the generator.</li>
 </ul>
 </blockquote>
